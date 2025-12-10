@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar_container">
+        <a href="#" class="header__btn-category">
+          <button>Categoria</button>
+          <i class="material-icons">arrow_drop_down</i>
+          <!-- <img src="./icons/arrow_down.svg" alt="arrow selection" /> -->
+        </a>
+        <div class="header__search-container">
+          <input
+            class="header__search-input"
+            placeholder="Buscar productos..."
+          />
+          <span class="header__search-btn"
+            ><img src="./icons/icon_search.svg" alt="search" />
+          </span>
+        </div>
+      </nav>
+
+      <div>
+        <span class="header__logo">Usuario</span>
+        <nav>
+          <ul class="header__links-container">
+            <li><a href="#">Administrador</a></li>
+            <li><a href="#">Cliente</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__shopping-cart" alt="shopping cart">
+        <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
+        <div class="header__cart-count-container">
+          <span class="header__cart-count">0</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="main__title">Catálogo</h1>
+      <section class="main__products-container">
+        <!-- HACER UN MAPEO -->
+        <article class="product_container">
+          <img class="product-img" src="./images/iphone1.webp" alt="iPhone 1" />
+          <h2 class="product-title">Smartphone</h2>
+          <span>$699.00</span>
+          <button class="product-btn">Agregar al carrito</button>
+        </article>
+        <article class="product_container">
+          <img class="product-img" src="./images/iphone1.webp" alt="iPhone 1" />
+          <h2 class="product-title">Smartphone</h2>
+          <span>$699.00</span>
+          <button class="product-btn">Agregar al carrito</button>
+        </article>
+        <article class="product_container">
+          <img class="product-img" src="./images/iphone1.webp" alt="iPhone 1" />
+          <h2 class="product-title">Smartphone</h2>
+          <span>$699.00</span>
+          <button class="product-btn">Agregar al carrito</button>
+        </article>
+        <article class="product_container">
+          <img class="product-img" src="./images/iphone1.webp" alt="iPhone 1" />
+          <h2 class="product-title">Smartphone</h2>
+          <span>$699.00</span>
+          <button class="product-btn">Agregar al carrito</button>
+        </article>
+        <article class="product_container">
+          <img class="product-img" src="./images/iphone1.webp" alt="iPhone 1" />
+          <h2 class="product-title">Smartphone</h2>
+          <span>$699.00</span>
+          <button class="product-btn">Agregar al carrito</button>
+        </article>
+      </section>
+    </main>
+  </body>
+  <script src="../src/index.js"></script>
+</html>
+
+<!-- 
+  FORMULARIOS:
+  https://www.jscamp.dev/html-y-css/formularios
+
+-->
